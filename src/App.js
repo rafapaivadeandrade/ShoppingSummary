@@ -38,7 +38,7 @@ class App extends Component{
     )
   }
   isDisabledFunction = () => { 
-          if(this.state.values=='DISCOUNT'){
+          if(this.state.values==='DISCOUNT'){
             this.state.newestimatedtotal = (this.state.estimatedtotal) * 0.9
             this.state.diffPriceNewPrice = this.state.estimatedtotal - this.state.newestimatedtotal
 
